@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500&family=Work+Sans:wght@600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Work Sans, sans-serif;
+  list-style: none;
+}
+/* -----------------------------banner-section-start---------------------------- */
+.banner {
+  width: 100%;
+  height: 700px;
+  background-image: url(./images/img/banner3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 100px;
+}
+.banner-heading {
+  font-size: 50px;
+  width: 500px;
+  text-align: right;
+  color: #fff;
+}
+.banner-description {
+  width: 500px;
+  text-align: right;
+  margin: 20px 0;
+  color: #fff;
+  line-height: 25px;
+}
+.banner-btn {
+  margin-top: 40px;
+}
+.btn-primary {
+  font-size: 18px;
+  color: rgb(0, 183, 255);
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.btn-primary:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+/* -----------------------------banner-section-end----------------------------- */
+
+/* -----------------------------man-section-start---------------------------- */
+.man {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 70px;
+}
+.man-right-section-heading {
+  width: 400px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.man-right-section-para {
+  color: #444343;
+  width: 500px;
+  margin: 20px 0;
+}
+.fa-check {
+  font-size: 22px;
+  font-weight: 900;
+  color: green;
+  margin-right: 5px;
+}
+.man-right-seciton ul li {
+  margin: 10px 0;
+  color: #444343;
+}
+/* -----------------------------man-section-end----------------------- */
+/* -----------------------------plan-start----------------------------- */
+.plan-section {
+  margin: 70px;
+}
+.plan-heading {
+  font-size: 35px;
+  text-align: center;
+  margin: 30px 0px;
+}
+.plan-item {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.plan {
+  width: 200px;
+  margin: 0 20px;
+}
+.plan h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737272;
+}
+/* -----------------------------plan-section-end----------------------------- */
+/* -----------------------------mindset-section-start------------------------ */
+.mindset-section {
+  background-image: linear-gradient(
+      to left,
+      rgba(62, 107, 128, 0.205) 0%,
+      rgba(0, 225, 255, 0.5) 100%
+    ),
+    url(./images/img/watch.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mindset-section-heading {
+  width: 400px;
+  color: #fff;
+  padding: 30px 0 20px 50px;
+  margin-top: 50px;
+}
+.mindset-btn {
+  margin: 20px 0 0 50px;
+}
+.btn-mindset {
+  color: #005fac;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: 0.5s;
+  border: 1px solid #fff;
+}
+.btn-mindset:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 15px 30px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+/* -----------------------------mindset-end----------------------------- */
+/* -----------------------------course-section-start----------------------------- */
+.optional-heading {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 70px;
+}
+section-course {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* padding: 20px; */
+  margin: 0 100px;
+}
+.fist-line-first-section {
+  margin-bottom: 20px;
+}
+.first-div {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+}
+.second-div h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.second-div p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.first-div:hover {
+  background-color: rgb(230, 229, 229);
+}
+.first-div img {
+  width: 40px;
+}
+.second-div {
+  width: 250px;
+  height: 230px;
+  color: #fff;
+  background-color: #222383;
+  border-radius: 10px;
+  padding: 50px 20px 20px;
+  transition: 1.5s;
+}
+.second-div:hover {
+  color: #000;
+  background-color: #fcca54;
+  transition: 1.5s;
+}
+.first-div:hover,
+.second-div:hover {
+  transition: 0.5s;
+}
+/* -----------------------------course-section-end----------------------------- */
+/* -----------------------------footer start------------------------  */
+footer {
+  display: flex;
+  color: #fff;
+  background-color: #151414;
+  padding: 50px 100px;
+  margin-top: 70px;
+}
+.footer-left-section {
+  width: 40%;
+}
+.footer-left-section h2 {
+  font-size: 45px;
+  margin: 20px 0;
+}
+.email-number {
+  margin: 20px 0;
+}
+.email-number a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer-right-section {
+  margin-left: 100px;
+  width: 40%;
+}
+.footer-right-section input {
+  font-size: 18px;
+  padding: 20px 35px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #151414;
+  border: 1px solid #fff;
+  outline: none;
+  margin-top: 30px;
+}
+.footer-right-section input:focus {
+  border: 1px solid #005fac;
+}
+.btn-footer {
+  font-size: 18px;
+  color: #fff;
+  background-color: #005fac;
+  width: 200px;
+  padding: 20px 15px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.btn-footer:hover {
+  color: #fff;
+  background-color: #151414;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+.socail {
+  margin-right: 5px;
+}
+.socail:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+/* -----------------------------footer-end----------------------------- */
